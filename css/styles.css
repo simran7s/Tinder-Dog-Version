@@ -28,6 +28,11 @@ h2 {
   line-height: 1.5;
 }
 
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
 /* Nav Bar */
 
 .navbar-brand {
@@ -140,8 +145,8 @@ h2 {
 }
 
 .press-logo {
-  width: 15%;
   margin: 1rem 1rem 2rem;
+  width: 90%;
 }
 
 /* Pricing */
@@ -156,4 +161,76 @@ h2 {
 }
 #pricing .card {
   margin: 1rem 0;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 0;
+}
+
+#cta h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+}
+
+.social-icons {
+  margin: 2rem;
+}
+.social-icons a {
+  margin: 0 1rem;
+  color: black;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.social-icons a:hover {
+  border: 1px solid black;
+}
+
+/******************/
+/* MEDIA QUERIES */
+/****************/
+
+/* Large Tablet */
+@media (max-width: 1250px) {
+  .iphone {
+    transform: rotate(0deg);
+    position: static;
+  }
+  #title {
+    text-align: center;
+    height: fit-content;
+  }
+}
+
+/* Small Tablet */
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  #cta h3 {
+    font-size: 2rem;
+  }
+
+  .carousel-item em {
+    font-size: 1.5rem;
+  }
+  .testimonial-image {
+    width: 20%;
+  }
 }
