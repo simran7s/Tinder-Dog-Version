@@ -167,7 +167,7 @@ h2 {
 #cta {
   background-color: #ff4c68;
   text-align: center;
-  /* padding: 3% 15%; */
+  padding: 3% 15%;
 }
 
 #cta h3 {
@@ -176,6 +176,10 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
   color: white;
+}
+
+#cta button {
+  margin: 0 1rem;
 }
 
 /* FOOTER */
