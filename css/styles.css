@@ -19,6 +19,13 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Nav Bar */
 
 .navbar-brand {
@@ -79,4 +86,49 @@ h1 {
 #features p {
   color: #8f8f8f;
   font-size: 1.7rem;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 0;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 2rem;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+#indicators {
+  padding-top: 2rem;
+}
+
+#press {
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1rem 1rem 2rem;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
